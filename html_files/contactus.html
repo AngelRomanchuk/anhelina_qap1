@@ -40,6 +40,54 @@
             <h1 class="banner_text">Contact Us</h1>
             <h3 class="banner_text">We are here to help you with your comfortable future</h3>
         </section>
+        <section id="page_2">
+            <h1>Here To Help You</h1>
+            <div id="sign_up_form">
+                <form action="/data" method="get" id="registration">
+                    <!-- Full Name -->
+                    <label for="full_name">Full Name*</label><br />
+                    <input type="text" id="full_name" name="full_name"
+                    autofocus placeholder="Please enter your name here"
+                    maxlength="50" tabindex="1"><br />
+                    <!-- Email Address -->
+                    <label for="email_add">Email Address*</label><br />
+                    <input type="email" id="email_add" name="email_add"
+                    placeholder="Please enter your email here"
+                    maxlength="50" tabindex="2"><br />
+                    <!-- Email Subject (drop down menu) -->
+                    <label for="email_sub">Email Subject</label><br />
+                    <input type="text" id="email_sub" name="email_sub"
+                    list="subjects" placeholder="Please select from the following menu"
+                    tabindex="3">
+                    <datalist id="subjects">
+                        <option value="Find a Dealer"></option>
+                        <option value="Help with deciding on a car"></option>
+                        <option value="MArketing/Sales"></option>
+                        <option value="General inquiries"></option>
+                        <option value="Other"></option>
+                    </datalist><br />
+                    <!-- Message -->
+                    <label for="message">Message*</label><br />
+                    <input id="message" name="message"
+                    placeholder="Please enter your message here (limit 3000 characters*)"
+                    rows="10" cols="10" tabindex="4"><br />
+                    <!-- Buttons -->
+                    <input type="submit" value="Send" class="ap_button">
+                    <input type="reset" value="Clear" class="ap_button">
+                </form>
+                <form action="/data" method="get" id="informed">
+                    <h3>Stay Informed</h3>
+                    <p>Sign up bellow to not miss the updates and news about our latest cars, <br />their details and our sustainability efforts.</p>
+                    
+                    <!-- Email Address -->
+                    <label for="email">Email Address*</label><br />
+                    <input type="email" id="email" name="email"
+                    placeholder="Please enter your email here"
+                    maxlength="50" tabindex="2"><br />
+                    <input type="submit" value="Send" class="ap_button">
+                </form>
+            </div>
+        </section>
     </main>
 
 
