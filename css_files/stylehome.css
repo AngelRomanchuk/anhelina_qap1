@@ -1,0 +1,77 @@
+/* Footer --------------------------------------------------------------------------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36,36,36,1);
+    width: 100%;   
+}
+
+footer h4 {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+/* Footer icons */
+#soc_med_icon {
+    text-align: center;
+}
+.fa {
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+    font-size: 16px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+} 
+.fa-facebook {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+} 
+.fa-twitter {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.fa-youtube {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.fa-instagram {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+/* Footer links */
+#footer_links{
+    text-align: center;
+}
+#footer_links a:link {
+    color: rgb(244, 244, 244, 0.75);
+    font-size: 12pt;
+    margin: 5px 12px 5px 12px;
+}
+#footer_links a:hover {
+    color: rgb(244, 244, 244, 0.75);
+    text-decoration: none;
+    margin: 5px 12px 5px 12px;
+    
+}
+#footer_links a:visited {
+    color: rgb(244, 244, 244, 0.75);
+    margin: 5px 12px 5px 12px;
+}
+
+/* Footer copyright */
+hr {
+    width: 100%;
+}
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 8pt;
+}
+
