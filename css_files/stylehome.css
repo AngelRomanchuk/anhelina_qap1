@@ -1,3 +1,12 @@
+.font {
+    font-size: 40pt;
+}
+
+
+
+
+
+
 /* Header------------------------------------------------------------------------------------------------------------------------- */
 header {
     display: flex;
@@ -133,8 +142,8 @@ nav {
     flex-direction: row;
 }
 #car_h h1{
-    font-size: 36px;
-    margin-left: 25%;
+    font-size: 36pt;
+    margin-left: 22%;
 }
 #pic_fig {
     display: flex;
@@ -151,17 +160,62 @@ nav {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #b_p_r blockquote{
-    padding: 15px;
+    padding: 10px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     font-size: 12pt;
 }
 #b_p_r p {
-    padding: 20px;
+    padding: 10px;
     font-size: 12pt;
+}
+
+/* Car Details PAge */
+#car_det_page {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(126, 121, 121, 1);
+    border-top: 10px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#car_det {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#car_det_page h1{
+    margin-left: 29%;
+    font-size: 36pt;
+}
+#pic_only_l, #pic_only_r {
+    width: 40%;
+    margin: 2%;
+    margin-bottom: 5%;
+}
+#pic_only_l img {
+    width: 90%;
+    height: 100%;
+}
+#pic_only_r img{
+    width: 90%;
+    height: 100%;
+}
+#t_pic_mid {
+    width: 60%;
+}
+#t_pic_mid img {
+    width: 90%;
+    height: 45%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+}
+#t_pic_mid p {
+    font-size: 14pt;
+    margin-top: 2%;
 }
 
 /* Footer --------------------------------------------------------------------------------------------------*/
