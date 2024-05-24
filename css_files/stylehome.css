@@ -104,8 +104,7 @@ nav {
     width: 100%;
     height: auto;
     text-align: center;
-}
-.banner_text {
+
     color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -117,9 +116,53 @@ nav {
 #main_banner h3 {
     margin-top: 10px;
     font-size: 20px;
-    margin-bottom: 40%;
+    margin-bottom: 30%;
 }
 
+/* Car History Page */
+#car_h {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(126, 121, 121, 1);
+    border-top: 10px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mid_pic_b_p {
+    display: flex;
+    flex-direction: row;
+}
+#car_h h1{
+    font-size: 36px;
+    margin-left: 25%;
+}
+#pic_fig {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 5%;
+}
+#car_h img {
+    width: 95%;
+    height: 100%;
+    margin-left: 5%;
+}
+#b_p_r {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+#b_p_r blockquote{
+    padding: 15px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 12pt;
+}
+#b_p_r p {
+    padding: 20px;
+    font-size: 12pt;
+}
 
 /* Footer --------------------------------------------------------------------------------------------------*/
 footer {
