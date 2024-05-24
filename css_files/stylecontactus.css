@@ -98,6 +98,8 @@ main {
     flex-direction: column;
     width: 100%;
     height: auto;
+    margin: 0%;
+    padding: 0%;
 }
 /* Banner */
 #main_banner {
@@ -109,7 +111,7 @@ main {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: auto;
     text-align: center;
 }
 .banner_text {
@@ -124,6 +126,7 @@ main {
 #main_banner h3 {
     margin-top: 20px;
     font-size: 26px;
+    margin-bottom: 36%;
 }
 
 
@@ -179,6 +182,7 @@ main {
     text-align: center;
     width:50%;
     margin-left: 10%;
+    margin-right: 2%;
     margin-top: 5%;
 }
 #informed h3 {

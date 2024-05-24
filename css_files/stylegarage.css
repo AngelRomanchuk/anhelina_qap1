@@ -93,6 +93,15 @@ nav {
 
 
 /* Main Content--------------------------------------------------------------------------------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
 #main_banner {
     display: flex;
     flex-direction: column;
@@ -102,19 +111,29 @@ nav {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: auto;
     text-align: center;
 }
 h4 {
-    margin: 500px 50px 0px 1100px;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
 }
-audio {
+#audio {
     position: relative;
-    left: 75%;
-    top: 3%;
+    margin-top: 44%;
+    left: 30%;
+    right: 2%;
+    padding-right: 2%;
+    padding-bottom: 10%;
+}
+
+#s_and_suv {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(126, 121, 121, 1);
+    height: 680px;
 }
 
 
