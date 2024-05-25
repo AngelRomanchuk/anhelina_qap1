@@ -147,7 +147,7 @@ h4 {
     border-top: 10px solid black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#cross_suv {
+.text {
     font-size: 36pt;
     margin-left: 35%;
 }
