@@ -137,8 +137,7 @@ nav {
     margin-bottom: 30%;
 }
 
-/* Car History Page */
-#car_h {
+.m_c{
     display: flex;
     flex-direction: column;
     height: auto;
@@ -146,11 +145,13 @@ nav {
     border-top: 10px solid black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* Car History Page */
 .mid_pic_b_p {
     display: flex;
     flex-direction: row;
 }
-#car_h h1{
+#car_h {
     font-size: 36pt;
     margin-left: 22%;
 }
@@ -160,7 +161,7 @@ nav {
     width: 50%;
     margin-bottom: 5%;
 }
-#car_h img {
+#pic_fig img {
     width: 95%;
     height: 100%;
     margin-left: 5%;
@@ -183,20 +184,12 @@ nav {
 }
 
 /* Car Details Page */
-#car_det_page {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    background-color: rgba(126, 121, 121, 1);
-    border-top: 10px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 #car_det {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-#car_det_page h1{
+#car_det_h {
     margin-left: 29%;
     font-size: 36pt;
 }
@@ -228,15 +221,7 @@ nav {
 }
 
 /* New Car Details */
-#new_model {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    background-color: rgba(126, 121, 121, 1);
-    border-top: 10px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#new_model h1{
+#new_model_h {
     margin-left: 29%;
     font-size: 36pt;
 }
@@ -284,14 +269,6 @@ nav {
 }
 
 /* Sign Up page */
-#sign_up {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    background-color: rgba(126, 121, 121, 1);
-    border-top: 10px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 #informed {
     text-align: center;
     margin-bottom: 2%;

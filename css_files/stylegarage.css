@@ -1,3 +1,13 @@
+.font {
+    font-size: 40pt;
+}
+.color {
+    color: white;
+}
+
+
+
+
 /* Header------------------------------------------------------------------------------------------------------------------------- */
 header {
     display: flex;
@@ -128,14 +138,60 @@ h4 {
     padding-bottom: 10%;
 }
 
-#s_and_suv {
+/* Crossovers and SUVs */
+.m_c {
     display: flex;
     flex-direction: column;
-
+    height: auto;
     background-color: rgba(126, 121, 121, 1);
-    height: 680px;
+    border-top: 10px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+#cross_suv {
+    font-size: 36pt;
+    margin-left: 35%;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.description {
+    width: 50%;
+    margin-left: 2%;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+.extra, .seats, .engine {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14pt;
+}
+.description a {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgba(244, 233, 170, 1);
+    padding: 5px;
+    margin-left: 30%;
+}
+.description a:link {
+    text-decoration: none;
+    color: black;
+}
+.description a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 224, 116);
+}
+.description a:visited {
+    text-decoration: none;
+    color: black;
+}
 
 /* Sign Up page */
 #sign_up {
