@@ -137,7 +137,48 @@ h4 {
 }
 
 
-
+/* Sign Up page */
+#sign_up {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(126, 121, 121, 1);
+    border-top: 10px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#informed {
+    text-align: center;
+    margin-bottom: 2%;
+}
+#informed h1 {
+    font-size: 36px;
+    padding-bottom: 1%;
+}
+#informed p {
+    font-size: 16pt;
+    margin-bottom: 1%;
+}
+#informed label {
+    font-size: 14pt;
+    margin-top: 2%;
+}
+#informed #email {
+    width: 20%;
+    height: 20px;
+    margin-top: 2%;
+    border: 2px solid rgb(54, 54, 54);
+}
+.ap_button {
+    width: 5%;
+    height: 20%;
+    margin-top: 2%;
+    background-color: rgba(244, 233, 170, 1);
+    color: black;
+    border-radius: 5%;
+}
+.ap_button:hover {
+    background-color: rgb(243, 224, 116);
+}
 
 /* Footer --------------------------------------------------------------------------------------------------*/
 footer {
@@ -184,6 +225,11 @@ footer h4 {
 .fa-instagram {
     border: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+footer address {
+    text-align: center;
+    color: white;
 }
 
 /* Footer links */

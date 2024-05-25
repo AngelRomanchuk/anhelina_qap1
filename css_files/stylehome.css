@@ -1,6 +1,15 @@
 .font {
     font-size: 40pt;
 }
+.color {
+    color: white;
+}
+.b_font_t {
+    font-size: 14pt;
+}
+.b_font_b {
+    font-size: 11pt;
+}
 
 
 
@@ -173,7 +182,7 @@ nav {
     font-size: 12pt;
 }
 
-/* Car Details PAge */
+/* Car Details Page */
 #car_det_page {
     display: flex;
     flex-direction: column;
@@ -198,24 +207,123 @@ nav {
 }
 #pic_only_l img {
     width: 90%;
-    height: 100%;
+    height: 80%;
 }
 #pic_only_r img{
     width: 90%;
-    height: 100%;
+    height: 80%;
 }
 #t_pic_mid {
     width: 60%;
 }
 #t_pic_mid img {
     width: 90%;
-    height: 45%;
+    height: auto;
     margin-top: 1%;
     padding-bottom: 5%;
 }
 #t_pic_mid p {
     font-size: 14pt;
     margin-top: 2%;
+}
+
+/* New Car Details */
+#new_model {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(126, 121, 121, 1);
+    border-top: 10px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#new_model h1{
+    margin-left: 29%;
+    font-size: 36pt;
+}
+#vid_det {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#details, #designs{
+    width: 25%;
+    margin: 0% 2% 2% 2%;
+}
+#info_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#info_button p {
+    width: 60%;
+    margin: 0% 2% 2% 2%;
+    font-size: 14pt;
+}
+#info_button a {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgba(244, 233, 170, 1);
+    margin-right: 7%;
+    margin-top: 5%;
+    height: 10%;
+    padding: 2%;
+}
+#info_button a:link {
+    text-decoration: none;
+    color: black;
+}
+#info_button a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 224, 116);
+}
+#info_button a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* Sign Up page */
+#sign_up {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(126, 121, 121, 1);
+    border-top: 10px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#informed {
+    text-align: center;
+    margin-bottom: 2%;
+}
+#informed h1 {
+    font-size: 36px;
+    padding-bottom: 1%;
+}
+#informed p {
+    font-size: 16pt;
+    margin-bottom: 1%;
+}
+#informed label {
+    font-size: 14pt;
+    margin-top: 2%;
+}
+#informed #email {
+    width: 20%;
+    height: 20px;
+    margin-top: 2%;
+    border: 2px solid rgb(54, 54, 54);
+}
+.ap_button {
+    width: 5%;
+    height: 20%;
+    margin-top: 2%;
+    background-color: rgba(244, 233, 170, 1);
+    color: black;
+    border-radius: 5%;
+}
+.ap_button:hover {
+    background-color: rgb(243, 224, 116);
 }
 
 /* Footer --------------------------------------------------------------------------------------------------*/
@@ -263,6 +371,11 @@ footer h4 {
 .fa-instagram {
     border: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+footer address {
+    text-align: center;
+    color: white;
 }
 
 /* Footer links */
